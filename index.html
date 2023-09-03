@@ -8,7 +8,7 @@
 </head>
 <body>
     <div style="padding: 5px; background-color: green;" id="elDiv">
-        <button onclick="alert('Hola!')">Saludar</button>
+        <button onclick="alert('Hola!'); event.stopPropagation()">Saludar</button>
     </div>
 </body>
 </html>
